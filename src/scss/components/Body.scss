@@ -1,0 +1,16 @@
+.body__container {
+    margin: 30px 0;
+    height: calc(100vh - 60px);
+    overflow: scroll;
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.body__container::-webkit-scrollbar {
+    display: none;
+}
