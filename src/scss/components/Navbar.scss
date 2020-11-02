@@ -1,4 +1,38 @@
 .navbar__container {
+    width: 100%;
+    height: fit-content;
+    min-height: 30px;
     position: fixed;
     top: 0;
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+
+    a {
+        color: var(--dark);
+        text-decoration: none;
+    }
+
+    .left__container {
+        margin-left: 20px;
+
+        .logo__container {
+            font-size: 30px;
+        }
+    }
+
+    .right__container {
+        a {
+            margin-right: 20px;
+            padding-bottom: 5px;
+        }
+
+        a:hover {
+            border-bottom: 2px solid var(--dark);
+            transition: border-bottom 100ms linear;
+        }
+    }
 }

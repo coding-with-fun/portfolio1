@@ -1,6 +1,7 @@
 .body__container {
-    margin: 30px 0;
-    height: calc(100vh - 60px);
+    margin-top: 65px;
+    margin-bottom: 30px;
+    height: calc(100vh - 65px - 30px);
     overflow: scroll;
 
     overflow-y: scroll;
@@ -9,6 +10,16 @@
 
     -ms-overflow-style: none;
     scrollbar-width: none;
+
+    .home__container,
+    .about__container,
+    .skills__container,
+    .projects__container {
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .body__container::-webkit-scrollbar {
