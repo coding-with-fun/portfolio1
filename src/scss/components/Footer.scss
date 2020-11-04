@@ -1,4 +1,45 @@
 .footer__container {
-    position: fixed;
-    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text__container {
+        width: fit-content;
+        margin: 10px 0;
+        font-size: 15px;
+        font-weight: 500;
+
+        .harsh__container,
+        .radhika__container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: wrap;
+
+            span {
+                margin: 0 3px;
+
+                .fa-heart {
+                    color: var(--red);
+                }
+
+                .fa-mug-hot {
+                    color: var(--black);
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: #212529;
+                font-weight: 800;
+                margin-left: 4px;
+            }
+        }
+
+        hr {
+            margin: 10px 0;
+            border: 1px solid;
+        }
+    }
 }

@@ -27,4 +27,8 @@ html {
 .main__container {
     height: inherit;
     overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
 }
