@@ -31,4 +31,16 @@ html {
     display: flex;
     justify-content: space-between;
     flex-flow: column;
+
+    .scroll_to_top {
+        position: fixed;
+        bottom: 90px;
+        right: 20px;
+        background-color: #000000;
+        color: var(--white);
+
+        padding: 10px 15px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
 }

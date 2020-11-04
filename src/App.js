@@ -7,6 +7,11 @@ function App() {
     return (
         <div className="main__container">
             <BrowserRouter>
+                <a href="#home" className="scroll_to_top">
+                    <span>
+                        <i className="fas fa-chevron-up"></i>
+                    </span>
+                </a>
                 <Navbar />
                 <Body />
                 <Footer />
