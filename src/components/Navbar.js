@@ -59,6 +59,13 @@ const Navbar = () => {
                     >
                         Projects
                     </a>
+                    <a
+                        href="#contactMe"
+                        className="projects_link__container"
+                        onClick={() => toggleMenu()}
+                    >
+                        Contact Me
+                    </a>
                 </div>
             </div>
         </div>

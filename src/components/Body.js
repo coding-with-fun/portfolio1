@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./About";
+import ContactUs from "./ContactUs";
 import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
@@ -11,6 +12,7 @@ const Body = () => {
             <About />
             <Skills />
             <Projects />
+            <ContactUs />
         </div>
     );
 };
