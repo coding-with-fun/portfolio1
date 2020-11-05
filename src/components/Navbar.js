@@ -31,16 +31,32 @@ const Navbar = () => {
                     <div className="menu__line"></div>
                 </div>
                 <div className="page_links">
-                    <a href="#home" className="home_link__container">
+                    <a
+                        href="#home"
+                        className="home_link__container"
+                        onClick={() => toggleMenu()}
+                    >
                         Home
                     </a>
-                    <a href="#about" className="about_link__container">
+                    <a
+                        href="#about"
+                        className="about_link__container"
+                        onClick={() => toggleMenu()}
+                    >
                         About
                     </a>
-                    <a href="#skills" className="skills_link__container">
+                    <a
+                        href="#skills"
+                        className="skills_link__container"
+                        onClick={() => toggleMenu()}
+                    >
                         Skills
                     </a>
-                    <a href="#projects" className="projects_link__container">
+                    <a
+                        href="#projects"
+                        className="projects_link__container"
+                        onClick={() => toggleMenu()}
+                    >
                         Projects
                     </a>
                 </div>
