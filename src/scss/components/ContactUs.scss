@@ -1,8 +1,15 @@
 .contact_me__container {
-    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 
     .contact__heading {
         margin-top: 30px;
         font-size: 30px;
+    }
+
+    .map__container {
+        position: relative;
+        width: 50%;
+        height: 50%;
     }
 }
