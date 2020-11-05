@@ -63,9 +63,14 @@
                 display: flex;
 
                 .name {
-                    margin-left: 10px;
                     font-weight: 600;
-                    color: #ff0000;
+                    color: #cc2f2f;
+                    text-decoration: none;
+                    margin-left: 10px;
+                }
+
+                .name:hover {
+                    color: #fd5b5b;
                 }
             }
         }
@@ -76,10 +81,25 @@
         align-items: center;
 
         img {
-            margin-left: 10%;
+            margin-left: 7%;
             width: 355px;
             height: 355px;
             border-radius: 360px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .home__container {
+        .left__container {
+            .data__container {
+                margin-right: 10%;
+            }
+        }
+        .right__container {
+            img {
+                margin: 0 auto;
+            }
         }
     }
 }
@@ -92,7 +112,7 @@
             height: 50%;
 
             .data__container {
-                font-size: 25px;
+                font-size: 20px;
             }
         }
 
