@@ -10,15 +10,7 @@ const Home = () => {
                         Hey... <span>👋</span>
                     </div>
                     <div className="name__container">
-                        I am{" "}
-                        <a
-                            href="https://github.com/arc-coder"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="name"
-                        >
-                            Harsh Patel
-                        </a>
+                        I am <div className="name">Harsh Patel</div>
                     </div>
                     <div className="details__container">
                         A Web Developer who creates UX rich performance websites

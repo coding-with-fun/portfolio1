@@ -65,12 +65,15 @@
                 .name {
                     font-weight: 600;
                     color: #cc2f2f;
-                    text-decoration: none;
                     margin-left: 10px;
+                    cursor: default;
+                    height: 43px;
                 }
 
                 .name:hover {
                     color: #fd5b5b;
+                    border-bottom: 1px solid #cc2f2f;
+                    transition: border-bottom 600ms linear;
                 }
             }
         }
@@ -123,6 +126,7 @@
                 width: 205px;
                 height: 205px;
                 margin: auto;
+                margin-top: 0;
             }
         }
     }
