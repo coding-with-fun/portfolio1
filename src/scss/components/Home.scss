@@ -1,3 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
 .home__container {
-    background-color: orchid;
+    display: flex;
+    flex-flow: wrap;
+
+    .left__container,
+    .right__container {
+        flex: 1;
+    }
+
+    .left__container {
+        font-family: "Josefin Sans", sans-serif;
+        flex-flow: column;
+
+        display: flex;
+        justify-content: center;
+
+        .data__container {
+            margin-left: 10%;
+            font-size: 40px;
+            font-weight: 300;
+
+            .heading__container {
+                span {
+                    display: inline-block;
+                    transform-origin: 70% 70%;
+                    animation: handWave 1800ms infinite;
+                }
+
+                @keyframes handWave {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+
+                    10% {
+                        transform: rotate(-10deg);
+                    }
+
+                    20% {
+                        transform: rotate(12deg);
+                    }
+
+                    30% {
+                        transform: rotate(-10deg);
+                    }
+
+                    40% {
+                        transform: rotate(9deg);
+                    }
+
+                    50% {
+                        transform: rotate(0deg);
+                    }
+
+                    100% {
+                        transform: rotate(0deg);
+                    }
+                }
+            }
+
+            .name__container {
+                display: flex;
+
+                .name {
+                    margin-left: 10px;
+                    font-weight: 600;
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+
+    .right__container {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-left: 10%;
+            width: 355px;
+            height: 355px;
+            border-radius: 360px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home__container {
+        flex-flow: column;
+
+        .left__container {
+            height: 50%;
+
+            .data__container {
+                font-size: 25px;
+            }
+        }
+
+        .right__container {
+            height: 50%;
+
+            img {
+                width: 205px;
+                height: 205px;
+                margin: auto;
+            }
+        }
+    }
 }
