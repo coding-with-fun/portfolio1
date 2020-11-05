@@ -34,7 +34,7 @@ html {
 
     .scroll_to_top {
         position: absolute;
-        bottom: 90px;
+        bottom: 112px;
         right: 20px;
         background-color: #000000;
         color: var(--white);
@@ -42,5 +42,9 @@ html {
         padding: 10px 15px;
         border-radius: 100px;
         cursor: pointer;
+
+        @media only screen and (max-width: 600px) {
+            right: 5px;
+        }
     }
 }
