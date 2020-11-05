@@ -26,14 +26,13 @@ html {
 
 .main__container {
     height: inherit;
-    overflow: hidden;
 
     display: flex;
     justify-content: space-between;
     flex-flow: column;
 
     .scroll_to_top {
-        position: fixed;
+        position: absolute;
         bottom: 90px;
         right: 20px;
         background-color: #000000;

@@ -66,6 +66,7 @@
         .right__container {
             .menu__button {
                 display: flex;
+                cursor: pointer;
                 flex-direction: column;
                 margin-right: 20px;
 
@@ -105,19 +106,39 @@
                 }
             }
 
-            .is_open + .page_links {
+            .page_links {
                 z-index: 1;
                 background-color: pink;
                 height: calc(100vh - 65px);
                 width: 100%;
                 position: absolute;
-                top: 10%;
+                top: 65px;
                 left: 0;
 
                 display: flex;
                 flex-flow: column;
                 justify-content: center;
                 align-items: center;
+
+                transition: transform 300ms ease-in-out;
+
+                a {
+                    margin: 0;
+                }
+            }
+
+            .is_open + .page_links {
+                animation: open_links 300ms linear;
+            }
+
+            @keyframes open_links {
+                0% {
+                    transform: translateX(100%);
+                }
+
+                100% {
+                    transform: translateX(0);
+                }
             }
 
             .is_close + .page_links {
