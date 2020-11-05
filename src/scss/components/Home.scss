@@ -68,12 +68,21 @@
                     margin-left: 10px;
                     cursor: default;
                     height: 43px;
+                    display: inline-block;
                 }
 
-                .name:hover {
-                    color: #fd5b5b;
-                    border-bottom: 1px solid #cc2f2f;
-                    transition: border-bottom 600ms linear;
+                .name::after {
+                    content: "";
+                    width: 0px;
+                    height: 2px;
+                    margin-top: -15px;
+                    display: block;
+                    background: #cc2f2f;
+                    transition: 300ms;
+                }
+
+                .name:hover::after {
+                    width: 100%;
                 }
             }
         }

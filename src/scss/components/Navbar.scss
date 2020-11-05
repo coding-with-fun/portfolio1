@@ -34,10 +34,20 @@
         a {
             margin-right: 20px;
             padding-bottom: 5px;
+            display: inline-block;
         }
 
-        a:hover {
-            border-bottom: 2px solid var(--dark);
+        a::after {
+            content: "";
+            width: 0px;
+            height: 2px;
+            display: block;
+            background: #212529;
+            transition: 300ms;
+        }
+
+        a:hover::after {
+            width: 100%;
         }
     }
 }
@@ -125,7 +135,6 @@
                     margin-right: 0;
                     font-size: 20px;
                     margin: 10px 0;
-
                 }
             }
 
