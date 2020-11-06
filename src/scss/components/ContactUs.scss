@@ -1,5 +1,6 @@
 .contact_me__container {
     height: inherit;
+    margin: 0 10%;
 
     .contact__heading {
         margin-top: 30px;
@@ -9,8 +10,7 @@
 
     .details__container {
         display: flex;
-        margin: 0 10%;
-        margin-top: 5%;
+        margin: 5% 0;
 
         .my_details,
         .map__container {
@@ -19,6 +19,21 @@
 
         .my_details {
             margin: auto;
+
+            .my_details__heading {
+                font-size: 20px;
+            }
+
+            .my_details__data {
+                margin-bottom: 10px;
+                font-size: 19px;
+
+                a {
+                    text-decoration: none;
+                    color: #212529;
+                    font-weight: 600;
+                }
+            }
         }
 
         .map__container {
@@ -26,13 +41,38 @@
             min-height: 40vh;
         }
     }
+
+    .social__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        span {
+            .social_icons {
+                cursor: pointer;
+                font-size: 30px;
+                color: #000000;
+                transition: color 200ms linear;
+            }
+
+            .social_icons:hover {
+                color: #2e2e2e;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .contact_me__container {
+        margin: 0;
+
         .details__container {
             flex-direction: column;
             margin: 5%;
+
+            .map__container {
+                margin-top: 20px;
+            }
         }
     }
 }
