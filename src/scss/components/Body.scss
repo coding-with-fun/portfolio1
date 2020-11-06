@@ -1,3 +1,9 @@
+@import "./Body/About.scss";
+@import "./Body/ContactUs.scss";
+@import "./Body/Home.scss";
+@import "./Body/Projects.scss";
+@import "./Body/Skills.scss";
+
 .body__container {
     height: calc(100vh - 65px - 86px);
     margin-top: 65px;

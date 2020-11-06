@@ -1,9 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 
-import Body from "./containers/Body";
-import Footer from "./containers/Footer";
-import Navbar from "./containers/Navbar";
-import ScrollToTop from "./containers/ScrollToTop";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (

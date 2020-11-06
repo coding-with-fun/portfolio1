@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
-@import "./components/About.scss";
 @import "./components/Body.scss";
-@import "./components/ContactUs.scss";
 @import "./components/Footer.scss";
-@import "./components/Home.scss";
 @import "./components/Navbar.scss";
-@import "./components/Project.scss";
-@import "./components/Projects.scss";
-@import "./components/Skills.scss";
+@import "./components/ScrollToTop.scss";
 
 * {
     margin: 0;
@@ -28,22 +23,4 @@ html {
     height: inherit;
     overflow: hidden;
     user-select: none;
-
-    .scroll_to_top {
-        position: fixed;
-        z-index: 0;
-        bottom: 112px;
-        right: 20px;
-        background-color: #000000;
-        color: var(--white);
-
-        padding: 10px 15px;
-        border-radius: 100px;
-        cursor: pointer;
-        z-index: 1;
-
-        @media only screen and (max-width: 600px) {
-            right: 5px;
-        }
-    }
 }

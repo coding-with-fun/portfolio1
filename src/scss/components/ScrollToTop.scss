@@ -1,0 +1,21 @@
+.scroll_to_top {
+    position: fixed;
+    z-index: 0;
+    bottom: 112px;
+    right: 20px;
+    background-color: #000000;
+    color: var(--white);
+
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 1;
+
+    @media only screen and (max-width: 600px) {
+        right: 5px;
+    }
+}
+
+.scroll_to_top:hover {
+    color: var(--white);
+}

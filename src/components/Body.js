@@ -1,9 +1,9 @@
 import React from "react";
 
 import About from "./Body/About";
-import ContactUs from "./Body/ContactUs/ContactUs";
+import ContactUs from "./Body/ContactUs";
 import Home from "./Body/Home";
-import Projects from "./Body/Projects/Projects";
+import Projects from "./Body/Projects";
 import Skills from "./Body/Skills";
 
 const Body = () => {

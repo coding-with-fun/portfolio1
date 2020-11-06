@@ -1,6 +1,5 @@
-import React from "react";
+import React from 'react'
 
-import { MapContainer } from "./components/MapContainer";
 
 import FaceBookLogo from "../../../assets/socialIcons/facebook.svg";
 import GithubLogo from "../../../assets/socialIcons/github.svg";
@@ -11,63 +10,9 @@ import TwitterLogo from "../../../assets/socialIcons/twitter.svg";
 import WhatsAppLogo from "../../../assets/socialIcons/whatsapp.svg";
 import YouTubeLogo from "../../../assets/socialIcons/youtube.svg";
 
-const ContactUs = () => {
+const SocialLinks = () => {
     return (
-        <div className="contact_me__container" id="contactMe">
-            <div className="contact__heading">
-                <p>Get In Touch</p>
-            </div>
-
-            <div className="details__container">
-                <div className="my_details">
-                    <div className="my_details__heading">Address</div>
-                    <div className="my_details__data">
-                        <a
-                            href="https://goo.gl/maps/B9ZFpSFRMkJyewpR7"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Maninagar, Ahmedabad, Gujarat 382443
-                        </a>
-                    </div>
-
-                    <div className="my_details__heading">Email address</div>
-                    <div className="my_details__data">
-                        <a
-                            href="mailto:dev@arccoder.in"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            dev@arccoder.in
-                        </a>
-                    </div>
-
-                    <div className="my_details__heading">Contact Number</div>
-                    <div className="my_details__data">
-                        <a
-                            href="tel:9099976321"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            90999 76321
-                        </a>
-                        <br />
-                        <a
-                            href="tel:9773195484"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            97731 95484
-                        </a>
-                    </div>
-                </div>
-
-                <div className="map__container">
-                    <MapContainer />
-                </div>
-            </div>
-
-            <div className="social__links">
+        <div className="social__links">
                 <span>
                     <a
                         href="https://github.com/arc-coder"
@@ -169,8 +114,7 @@ const ContactUs = () => {
                     </a>
                 </span>
             </div>
-        </div>
-    );
-};
+    )
+}
 
-export default ContactUs;
+export default SocialLinks
