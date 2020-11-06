@@ -1,5 +1,8 @@
 import React from "react";
 import { MapContainer } from "./MapContainer";
+import GoogleLogo from "../assets/google.svg";
+import InstagramLogo from "../assets/instagram.svg";
+import WhatsAppLogo from "../assets/whatsapp.svg";
 
 const ContactUs = () => {
     return (
@@ -67,15 +70,6 @@ const ContactUs = () => {
                 </span>
                 <span>
                     <a
-                        href="https://gitlab.com/arc-coder"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className="social_icons fab fa-gitlab"></i>
-                    </a>
-                </span>
-                <span>
-                    <a
                         href="https://linkedin.com/in/harshpatel2124"
                         target="_blank"
                         rel="noreferrer"
@@ -89,16 +83,11 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-instagram"></i>
-                    </a>
-                </span>
-                <span>
-                    <a
-                        href="https://dev.to/arc__coder"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className="social_icons fab fa-dev"></i>
+                        <img
+                            src={InstagramLogo}
+                            alt="Instagram Logo"
+                            className="social_icon_img"
+                        />
                     </a>
                 </span>
                 <span>
@@ -107,7 +96,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-twitter"></i>
+                        <i className="social_icons fab fa-twitter-square"></i>
                     </a>
                 </span>
                 <span>
@@ -121,15 +110,6 @@ const ContactUs = () => {
                 </span>
                 <span>
                     <a
-                        href="https://www.freecodecamp.org/arccoder"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className="social_icons fab fa-free-code-camp"></i>
-                    </a>
-                </span>
-                <span>
-                    <a
                         href="https://www.facebook.com/harsh2124"
                         target="_blank"
                         rel="noreferrer"
@@ -138,12 +118,25 @@ const ContactUs = () => {
                     </a>
                 </span>
                 <span>
+                    <a href="/" target="_blank" rel="noreferrer">
+                        <img
+                            src={GoogleLogo}
+                            alt="Google Logo"
+                            className="social_icon_img"
+                        />
+                    </a>
+                </span>
+                <span>
                     <a
                         href="https://wa.me/919099976321?text=Hello%20I%20am%20interested%20to%20contact%20you."
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-google"></i>
+                        <img
+                            src={WhatsAppLogo}
+                            alt="WhatsApp Logo"
+                            className="social_icon_img"
+                        />
                     </a>
                 </span>
             </div>

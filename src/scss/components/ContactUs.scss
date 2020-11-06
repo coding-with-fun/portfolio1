@@ -49,14 +49,36 @@
 
         span {
             .social_icons {
-                cursor: pointer;
                 font-size: 30px;
-                color: #000000;
-                transition: color 200ms linear;
             }
 
-            .social_icons:hover {
-                color: #2e2e2e;
+            .social_icon_img {
+                height: 30px;
+                width: 30px;
+            }
+
+            .fa-github {
+                color: #000000;
+            }
+
+            .fa-linkedin-in {
+                color: #0177b5;
+            }
+
+            .fa-twitter-square {
+                color: #4ea6e9;
+            }
+
+            .fa-youtube {
+                color: #c12f29;
+            }
+
+            .fa-facebook {
+                color: #3a5598;
+            }
+
+            .fa-whatsapp {
+                color: #66e777;
             }
         }
     }
