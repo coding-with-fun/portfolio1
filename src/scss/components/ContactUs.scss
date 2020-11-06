@@ -9,14 +9,30 @@
 
     .details__container {
         display: flex;
+        margin: 0 10%;
+        margin-top: 5%;
 
         .my_details,
         .map__container {
             flex: 1;
         }
 
+        .my_details {
+            margin: auto;
+        }
+
         .map__container {
             position: relative;
+            min-height: 40vh;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact_me__container {
+        .details__container {
+            flex-direction: column;
+            margin: 5%;
         }
     }
 }
