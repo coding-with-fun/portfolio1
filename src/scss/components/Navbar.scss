@@ -121,7 +121,7 @@
             }
 
             .page_links {
-                background-color: pink;
+                background-color: #ffffff;
                 height: calc(100vh - 65px);
                 width: 100%;
                 position: absolute;
@@ -157,7 +157,18 @@
             }
 
             .is_close + .page_links {
-                display: none;
+                animation: close_links 300ms linear;
+                transform: translateX(100%);
+            }
+
+            @keyframes close_links {
+                0% {
+                    transform: translateX(0);
+                }
+
+                100% {
+                    transform: translateX(100%);
+                }
             }
         }
     }
