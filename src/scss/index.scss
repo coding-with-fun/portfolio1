@@ -27,6 +27,7 @@ html {
 .main__container {
     height: inherit;
     overflow: hidden;
+    user-select: none;
 
     .scroll_to_top {
         position: fixed;

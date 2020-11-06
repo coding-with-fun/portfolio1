@@ -25,6 +25,8 @@
                     display: inline-block;
                     transform-origin: 70% 70%;
                     animation: handWave 1800ms infinite;
+                    cursor: default;
+                    user-select: none;
                 }
 
                 @keyframes handWave {

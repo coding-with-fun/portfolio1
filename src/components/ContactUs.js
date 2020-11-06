@@ -13,7 +13,9 @@ import YouTubeLogo from "../assets/youtube.svg";
 const ContactUs = () => {
     return (
         <div className="contact_me__container" id="contactMe">
-            <div className="contact__heading">Get In Touch</div>
+            <div className="contact__heading">
+                <p>Get In Touch</p>
+            </div>
 
             <div className="details__container">
                 <div className="my_details">
@@ -80,6 +82,19 @@ const ContactUs = () => {
                 </span>
                 <span>
                     <a
+                        href="https://wa.me/919099976321?text=Hello%20I%20am%20interested%20to%20contact%20you."
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img
+                            src={WhatsAppLogo}
+                            alt="WhatsApp Logo"
+                            className="social_icon_img"
+                        />
+                    </a>
+                </span>
+                <span>
+                    <a
                         href="https://linkedin.com/in/harshpatel2124"
                         target="_blank"
                         rel="noreferrer"
@@ -93,13 +108,13 @@ const ContactUs = () => {
                 </span>
                 <span>
                     <a
-                        href="https://www.instagram.com/arc__coder"
+                        href="https://www.facebook.com/harsh2124"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <img
-                            src={InstagramLogo}
-                            alt="Instagram Logo"
+                            src={FaceBookLogo}
+                            alt="FaceBook Logo"
                             className="social_icon_img"
                         />
                     </a>
@@ -119,6 +134,19 @@ const ContactUs = () => {
                 </span>
                 <span>
                     <a
+                        href="https://www.instagram.com/arc__coder"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img
+                            src={InstagramLogo}
+                            alt="Instagram Logo"
+                            className="social_icon_img"
+                        />
+                    </a>
+                </span>
+                <span>
+                    <a
                         href="https://www.youtube.com/channel/UC5fLpNYfnyHYX7rvm1LYEyQ"
                         target="_blank"
                         rel="noreferrer"
@@ -131,36 +159,10 @@ const ContactUs = () => {
                     </a>
                 </span>
                 <span>
-                    <a
-                        href="https://www.facebook.com/harsh2124"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img
-                            src={FaceBookLogo}
-                            alt="FaceBook Logo"
-                            className="social_icon_img"
-                        />
-                    </a>
-                </span>
-                <span>
                     <a href="/" target="_blank" rel="noreferrer">
                         <img
                             src={GoogleLogo}
                             alt="Google Logo"
-                            className="social_icon_img"
-                        />
-                    </a>
-                </span>
-                <span>
-                    <a
-                        href="https://wa.me/919099976321?text=Hello%20I%20am%20interested%20to%20contact%20you."
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img
-                            src={WhatsAppLogo}
-                            alt="WhatsApp Logo"
                             className="social_icon_img"
                         />
                     </a>
