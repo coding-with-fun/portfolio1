@@ -144,6 +144,8 @@
 
             .is_open + .page_links {
                 animation: open_links 300ms linear;
+                opacity: 1;
+                transition: opacity 300ms linear;
             }
 
             @keyframes open_links {
@@ -159,6 +161,8 @@
             .is_close + .page_links {
                 animation: close_links 300ms linear;
                 transform: translateX(100%);
+                opacity: 0;
+                transition: opacity 300ms linear;
             }
 
             @keyframes close_links {

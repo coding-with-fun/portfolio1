@@ -62,7 +62,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-github"></i>
+                        <i className="social_icons fab fa-github"></i>
                     </a>
                 </span>
                 <span>
@@ -71,7 +71,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-gitlab"></i>
+                        <i className="social_icons fab fa-gitlab"></i>
                     </a>
                 </span>
                 <span>
@@ -80,7 +80,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-linkedin-in"></i>
+                        <i className="social_icons fab fa-linkedin-in"></i>
                     </a>
                 </span>
                 <span>
@@ -89,7 +89,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-instagram"></i>
+                        <i className="social_icons fab fa-instagram"></i>
                     </a>
                 </span>
                 <span>
@@ -98,7 +98,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-dev"></i>
+                        <i className="social_icons fab fa-dev"></i>
                     </a>
                 </span>
                 <span>
@@ -107,7 +107,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-twitter"></i>
+                        <i className="social_icons fab fa-twitter"></i>
                     </a>
                 </span>
                 <span>
@@ -116,7 +116,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-youtube"></i>
+                        <i className="social_icons fab fa-youtube"></i>
                     </a>
                 </span>
                 <span>
@@ -125,7 +125,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-free-code-camp"></i>
+                        <i className="social_icons fab fa-free-code-camp"></i>
                     </a>
                 </span>
                 <span>
@@ -134,7 +134,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-facebook"></i>
+                        <i className="social_icons fab fa-facebook"></i>
                     </a>
                 </span>
                 <span>
@@ -143,7 +143,7 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i class="social_icons fab fa-whatsapp"></i>
+                        <i className="social_icons fab fa-google"></i>
                     </a>
                 </span>
             </div>
