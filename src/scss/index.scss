@@ -29,7 +29,7 @@ html {
     overflow: hidden;
 
     .scroll_to_top {
-        position: absolute;
+        position: fixed;
         z-index: 0;
         bottom: 112px;
         right: 20px;
