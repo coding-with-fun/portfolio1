@@ -64,14 +64,33 @@
 
 @media only screen and (max-width: 600px) {
     .contact_me__container {
-        margin: 0;
+        margin: 5%;
 
         .details__container {
             flex-direction: column;
-            margin: 5%;
+
+            .my_details {
+                margin: 0;
+
+                .my_details__heading {
+                    font-size: 15px;
+                }
+
+                .my_details__data {
+                    font-size: 14px;
+                }
+            }
 
             .map__container {
                 margin-top: 20px;
+            }
+        }
+
+        .social__links {
+            flex-flow: wrap;
+
+            span {
+                margin: 5px 55px;
             }
         }
     }
