@@ -1,8 +1,12 @@
 .footer__container {
     width: 100%;
+    height: 86px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
 
     .text__container {
         width: fit-content;
@@ -40,6 +44,19 @@
         hr {
             margin: 10px 0;
             border: 1px solid;
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .footer__container {
+        .text__container {
+            font-size: 12px;
+
+            hr {
+                margin: 5px 0;
+                border: 0.1px solid;
+            }
         }
     }
 }

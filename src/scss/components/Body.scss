@@ -1,5 +1,6 @@
 .body__container {
-    height: 100%;
+    height: calc(100vh - 65px - 86px);
+    margin-top: 65px;
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
