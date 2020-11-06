@@ -1,15 +1,22 @@
 .contact_me__container {
-    align-items: center;
-    flex-flow: column;
+    height: inherit;
 
     .contact__heading {
         margin-top: 30px;
+        text-align: center;
         font-size: 30px;
     }
 
-    .map__container {
-        position: relative;
-        width: 50%;
-        height: 50%;
+    .details__container {
+        display: flex;
+
+        .my_details,
+        .map__container {
+            flex: 1;
+        }
+
+        .map__container {
+            position: relative;
+        }
     }
 }
