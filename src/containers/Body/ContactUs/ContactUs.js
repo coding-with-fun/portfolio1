@@ -1,14 +1,15 @@
 import React from "react";
-import { MapContainer } from "./MapContainer";
 
-import FaceBookLogo from "../assets/facebook.svg";
-import GithubLogo from "../assets/github.svg";
-import GoogleLogo from "../assets/google.svg";
-import InstagramLogo from "../assets/instagram.svg";
-import LinkedInLogo from "../assets/linkedin.svg";
-import TwitterLogo from "../assets/twitter.svg";
-import WhatsAppLogo from "../assets/whatsapp.svg";
-import YouTubeLogo from "../assets/youtube.svg";
+import { MapContainer } from "./components/MapContainer";
+
+import FaceBookLogo from "../../../assets/socialIcons/facebook.svg";
+import GithubLogo from "../../../assets/socialIcons/github.svg";
+import GoogleLogo from "../../../assets/socialIcons/google.svg";
+import InstagramLogo from "../../../assets/socialIcons/instagram.svg";
+import LinkedInLogo from "../../../assets/socialIcons/linkedin.svg";
+import TwitterLogo from "../../../assets/socialIcons/twitter.svg";
+import WhatsAppLogo from "../../../assets/socialIcons/whatsapp.svg";
+import YouTubeLogo from "../../../assets/socialIcons/youtube.svg";
 
 const ContactUs = () => {
     return (

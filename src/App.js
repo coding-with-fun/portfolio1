@@ -1,17 +1,15 @@
 import { BrowserRouter } from "react-router-dom";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+
+import Body from "./containers/Body";
+import Footer from "./containers/Footer";
+import Navbar from "./containers/Navbar";
+import ScrollToTop from "./containers/ScrollToTop";
 
 function App() {
     return (
         <div className="main__container">
             <BrowserRouter>
-                <a href="#home" className="scroll_to_top">
-                    <span>
-                        <i className="fas fa-chevron-up"></i>
-                    </span>
-                </a>
+                <ScrollToTop />
                 <Navbar />
                 <Body />
                 <Footer />
