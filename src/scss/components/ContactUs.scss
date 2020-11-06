@@ -48,37 +48,9 @@
         justify-content: space-evenly;
 
         span {
-            .social_icons {
-                font-size: 30px;
-            }
-
             .social_icon_img {
                 height: 30px;
                 width: 30px;
-            }
-
-            .fa-github {
-                color: #000000;
-            }
-
-            .fa-linkedin-in {
-                color: #0177b5;
-            }
-
-            .fa-twitter-square {
-                color: #4ea6e9;
-            }
-
-            .fa-youtube {
-                color: #c12f29;
-            }
-
-            .fa-facebook {
-                color: #3a5598;
-            }
-
-            .fa-whatsapp {
-                color: #66e777;
             }
         }
     }
@@ -110,9 +82,30 @@
 
         .social__links {
             flex-flow: wrap;
+            margin-bottom: 50px;
 
             span {
-                margin: 5px 55px;
+                margin: 10px 45px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contact_me__container {
+        .social__links {
+            span {
+                margin: 10px 55px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .contact_me__container {
+        .social__links {
+            span {
+                margin: 10px 35px;
             }
         }
     }

@@ -1,8 +1,14 @@
 import React from "react";
 import { MapContainer } from "./MapContainer";
+
+import FaceBookLogo from "../assets/facebook.svg";
+import GithubLogo from "../assets/github.svg";
 import GoogleLogo from "../assets/google.svg";
 import InstagramLogo from "../assets/instagram.svg";
+import LinkedInLogo from "../assets/linkedin.svg";
+import TwitterLogo from "../assets/twitter.svg";
 import WhatsAppLogo from "../assets/whatsapp.svg";
+import YouTubeLogo from "../assets/youtube.svg";
 
 const ContactUs = () => {
     return (
@@ -65,7 +71,11 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-github"></i>
+                        <img
+                            src={GithubLogo}
+                            alt="Github Logo"
+                            className="social_icon_img"
+                        />
                     </a>
                 </span>
                 <span>
@@ -74,7 +84,11 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-linkedin-in"></i>
+                        <img
+                            src={LinkedInLogo}
+                            alt="LinkedIn Logo"
+                            className="social_icon_img"
+                        />
                     </a>
                 </span>
                 <span>
@@ -96,7 +110,11 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-twitter-square"></i>
+                        <img
+                            src={TwitterLogo}
+                            alt="Twitter Logo"
+                            className="social_icon_img"
+                        />
                     </a>
                 </span>
                 <span>
@@ -105,7 +123,11 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-youtube"></i>
+                        <img
+                            src={YouTubeLogo}
+                            alt="YouTube Logo"
+                            className="social_icon_img"
+                        />
                     </a>
                 </span>
                 <span>
@@ -114,7 +136,11 @@ const ContactUs = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="social_icons fab fa-facebook"></i>
+                        <img
+                            src={FaceBookLogo}
+                            alt="FaceBook Logo"
+                            className="social_icon_img"
+                        />
                     </a>
                 </span>
                 <span>
