@@ -26,6 +26,42 @@ const About = () => {
                     asperiores dolor aspernatur corporis in labore ipsa, eveniet
                     praesentium repudiandae debitis fugit quam iste natus.
                 </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sint obcaecati iusto officiis deleniti quaerat voluptatum
+                    asperiores dolor aspernatur corporis in labore ipsa, eveniet
+                    praesentium repudiandae debitis fugit quam iste natus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sint obcaecati iusto officiis deleniti quaerat voluptatum
+                    asperiores dolor aspernatur corporis in labore ipsa, eveniet
+                    praesentium repudiandae debitis fugit quam iste natus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sint obcaecati iusto officiis deleniti quaerat voluptatum
+                    asperiores dolor aspernatur corporis in labore ipsa, eveniet
+                    praesentium repudiandae debitis fugit quam iste natus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sint obcaecati iusto officiis deleniti quaerat voluptatum
+                    asperiores dolor aspernatur corporis in labore ipsa, eveniet
+                    praesentium repudiandae debitis fugit quam iste natus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sint obcaecati iusto officiis deleniti quaerat voluptatum
+                    asperiores dolor aspernatur corporis in labore ipsa, eveniet
+                    praesentium repudiandae debitis fugit quam iste natus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sint obcaecati iusto officiis deleniti quaerat voluptatum
+                    asperiores dolor aspernatur corporis in labore ipsa, eveniet
+                    praesentium repudiandae debitis fugit quam iste natus.
+                </p>
             </div>
         </div>
     );
