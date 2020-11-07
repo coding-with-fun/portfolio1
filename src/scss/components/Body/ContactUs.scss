@@ -1,10 +1,11 @@
 .contact_me__container {
     height: inherit;
-    margin: 0 10%;
+    max-height: max-content;
+    margin: 5% 10%;
+    margin-bottom: 0;
 
     .contact__heading {
         font-family: "Josefin Sans", sans-serif;
-        padding: 5% 0;
         display: flex;
         justify-content: center;
         font-size: 30px;
