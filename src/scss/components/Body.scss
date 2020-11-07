@@ -5,7 +5,7 @@
 @import "./Body/Skills.scss";
 
 .body__container {
-    position: absolute;
+    position: fixed;
     height: calc(100vh - 65px - 86px);
     margin-top: 65px;
     overflow-y: scroll;
@@ -16,7 +16,6 @@
     scrollbar-width: none;
 
     .home__container,
-    .about__container,
     .skills__container,
     .projects__container {
         height: inherit;

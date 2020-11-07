@@ -1,4 +1,7 @@
 .about__container {
+    height: inherit;
+    display: flex;
+    background-color: pink;
     flex-direction: column;
     margin: 0 10%;
 
@@ -30,23 +33,12 @@
 
 @media only screen and (max-width: 600px) {
     .about__container {
-        margin: 0 5%;
+        margin: 0 5% 5% 5%;
+        height: fit-content;
 
         .about_me__heading {
             padding-bottom: 0;
             font-size: 25px;
-        }
-
-        .about_me__content {
-            font-size: 14.5px;
-        }
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    .about__container {
-        .about_me__content {
-            font-size: 13px;
         }
     }
 }
