@@ -5,7 +5,7 @@
 @import "./Body/Skills.scss";
 
 .body__container {
-    position: relative;
+    position: absolute;
     height: calc(100vh - 65px - 86px);
     margin-top: 65px;
     overflow-y: scroll;
